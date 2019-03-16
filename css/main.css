@@ -23,8 +23,20 @@ body{
     color: #fff;
 }
 
+.main-header-solutions{
+    background: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    color: #fff;
+}
+
 .main-header .showcase{
     padding-top: 110px;
+}
+
+.main-header-solutions .showcase-solutions{
+    padding-top: 50px;
 }
 
 .section-devs{
@@ -48,4 +60,13 @@ body{
 }
 .section-testimonials .carousel-item .carousel-fixed-item{
     top: 200px !important;
+}
+
+.tabs .indicator{
+    background: #611b9a !important;
+}
+
+.btn-extend{
+    display: block;
+    width: 100%;
 }
